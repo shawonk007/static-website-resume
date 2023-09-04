@@ -1,3 +1,3 @@
 # static-website-resume
 
-Live Preview : https://demo-02.shawon-khan.com/
+Live Preview : https://demo.shawon-khan.com/
