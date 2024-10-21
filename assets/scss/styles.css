@@ -1,0 +1,162 @@
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  color: white;
+  background-color: #2f2f2f;
+}
+nav .profile {
+  display: none;
+}
+nav .profile h4 {
+  font-family: "Odibee Sans", cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+}
+nav ul li a {
+  color: white;
+}
+
+#top {
+  display: none;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 50;
+  color: white;
+  background-color: crimson;
+}
+
+h1 {
+  font-family: "Odibee Sans", cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 5rem;
+}
+@media (max-width: 1399px) {
+  h1 {
+    font-size: 4.25rem;
+  }
+}
+@media (max-width: 1199px) {
+  h1 {
+    font-size: 3.25rem;
+  }
+}
+
+.info-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.info-row a {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #2f2f2f;
+  text-align: center;
+}
+.info-row a:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.text-lg {
+  font-size: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.35rem;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+@media (max-width: 767px) {
+  .left, .right {
+    text-align: left;
+  }
+}
+@media (min-width: 768px) {
+  .left {
+    text-align: left;
+  }
+  .right {
+    text-align: right;
+  }
+  .info-row {
+    flex-direction: row;
+  }
+  .info-row a {
+    margin-right: 0.75rem;
+    margin-bottom: 0;
+    padding-right: 0.75rem;
+    padding-bottom: 0;
+    border-right: 2px solid #2f2f2f;
+    border-bottom: 0;
+  }
+  .info-row a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: 0;
+  }
+  .text-xl {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  nav {
+    width: 15rem;
+    height: 100vh;
+  }
+  nav .navbar-brand {
+    display: none;
+  }
+  nav #navMenu {
+    display: flex;
+    flex-direction: column;
+  }
+  nav .profile {
+    display: block;
+  }
+  nav .profile img {
+    border: 5px solid white;
+  }
+  nav ul {
+    width: 100%;
+  }
+  main {
+    margin-left: 15rem;
+  }
+  .left {
+    text-align: left;
+  }
+  .right {
+    text-align: right;
+  }
+  .text-xl {
+    font-size: 1.35rem;
+  }
+  footer {
+    padding: 0 1rem;
+    margin-left: 16rem;
+    margin-right: 1rem;
+    color: white;
+    background-color: #2f2f2f;
+  }
+}
+.btn-icon {
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 1px solid #6c757d;
+  color: #6c757d;
+  text-align: center;
+}
+.btn-icon:hover {
+  background-color: #6c757d;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */
